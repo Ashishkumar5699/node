@@ -106,7 +106,7 @@ app.post("/welcome", auth, (req, res) => {
   }
   finally
   {
-    console.log("/welcome worked sicessfully====================");
+    console.log("/welcome worked ====================");
   }
 });
 
