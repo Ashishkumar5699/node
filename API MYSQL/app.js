@@ -3,6 +3,7 @@ const express = require('express');
 const app = express();
 const userRouter = require("./API/users/user.router");
 
+app.use(express.json());
 app.use("/api/user", userRouter)
 
 app.listen(process.env.APP_PORT, () => {
